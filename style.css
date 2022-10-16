@@ -10,25 +10,45 @@ body {
 }
 
 .bg-image {
-  border: 1px solid red;
   width: 40%;
   display: flex;
   justify-content: center;
   height: 100vh;
-  align-items: center;
-  background-image: url("./images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg");
+  background-image: url("./images/adi-goldstein-EUsVwEOsblE-unsplash.jpg");
   background-size: cover;
 }
 
-.bg-image h1 {
+.content h1 {
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   font-size: 45px;
+  margin-top: 150px;
+  background: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  padding: 5px;
+  font-family: "Cabin Sketch", cursive;
 }
 
 .form-container {
-  border: 1px solid blue;
   width: 60%;
-  padding: 20px;
+  padding: 30px;
+  background: rgb(251, 249, 249);
+}
+
+.top-content {
+  margin-top: 50px;
+  border: 1px solid red;
+}
+
+.form-content {
+  border: 1px solid green;
+}
+
+.btn-submit {
+  border: 1px solid blue;
+}
+
+.btn {
+  margin-top: 20px;
 }
